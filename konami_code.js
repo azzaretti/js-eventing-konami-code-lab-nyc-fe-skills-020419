@@ -14,7 +14,7 @@ function init(){
       tracker = 0;
 
    } else{
-   tracker === 0;
+   tracker = 0;
    }
   }
 
