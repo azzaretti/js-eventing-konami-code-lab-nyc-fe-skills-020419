@@ -19,7 +19,7 @@ function init(){
   }
 
   document.addEventListener('keydown', onKeyDown)
-}
+  }
 
-init()
+// init()
 
