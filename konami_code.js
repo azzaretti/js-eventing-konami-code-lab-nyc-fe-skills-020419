@@ -13,7 +13,7 @@ function init(){
    }
    
    if (tracker === code.length){
-      alert('Booyakasha!')
+      window.alert('Booyakasha!')
       tracker = 0;
 
    } 
