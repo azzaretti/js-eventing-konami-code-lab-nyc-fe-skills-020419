@@ -11,6 +11,7 @@ function init(){
    } else{
    tracker = 0;
    }
+   
    if (tracker === code.length){
       alert('Booyakasha!')
       tracker = 0;
