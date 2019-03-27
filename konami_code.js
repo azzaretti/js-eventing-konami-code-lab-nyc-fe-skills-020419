@@ -11,7 +11,7 @@ function keyDownKonami(){
   }
   if (tracker === code.length){
       alert("Nice Job!")
-      tracker === 0
+      tracker === 0;
 
   } else{
   tracker === 0
