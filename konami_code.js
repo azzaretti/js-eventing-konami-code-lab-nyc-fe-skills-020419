@@ -10,11 +10,11 @@ function init(){
       tracker++
    }
    if (tracker === code.length){
-      alert("Nice Job!")
+      alert('Booyakasha!')
       tracker = 0;
 
    } else{
-   tracker = 0;
+   tracker === 0;
    }
   }
 
