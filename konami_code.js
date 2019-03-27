@@ -8,14 +8,14 @@ function init(){
   
     if (key === code[tracker]){
       tracker++
+   } else{
+   tracker = 0;
    }
    if (tracker === code.length){
       alert('Booyakasha!')
       tracker = 0;
 
-   } else{
-   tracker = 0;
-   }
+   } 
   }
 
   document.addEventListener('keydown', onKeyDown)
