@@ -18,9 +18,9 @@ function keyDownKonami(){
   }
 }
 
-function onClick(){
-  console.log(event)
-}
+// function onClick(){
+//   console.log(event)
+// }
 
 
 document.addEventListener('keydown', keyDownKonami)
