@@ -2,7 +2,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 let tracker = 0
 function init(){
-  function onKeyDown(){
+  function onKeyDown(event){
    let key = parseInt(event.which)
     console.log(event.which);
   
@@ -14,12 +14,12 @@ function init(){
       tracker = 0;
 
    } else{
-   tracker = 0;
+   tracker === 0;
    }
   }
 
   document.addEventListener('keydown', onKeyDown)
   }
 
-// init()
+init()
 
